@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--CSS Icons-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!--How To Add CSS-->
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Introduction-->
+    <style>
+        body {
+          background-color: lightblue;
+        }
+        
+        h1 {
+          color: white;
+          text-align: center;
+        }
+        
+        p {
+          font-family: verdana;
+          font-size: 20px;
+        }
+        </style>
+        <!--CSS Borders-->
+        <style>
+            p.dotted {border-style: dotted;}
+            p.dashed {border-style: dashed;}
+            p.solid {border-style: solid;}
+            p.double {border-style: double;}
+            p.groove {border-style: groove;}
+            p.ridge {border-style: ridge;}
+            p.inset {border-style: inset;}
+            p.outset {border-style: outset;}
+            p.none {border-style: none;}
+            p.hidden {border-style: hidden;}
+            p.mix {border-style: dotted dashed solid double;}
+            </style>
+            <!--CSS Margin-->
+            <style>
+                div {
+                  border: 1px solid black;
+                  margin-top: 100px;
+                  margin-bottom: 100px;
+                  margin-right: 150px;
+                  margin-left: 80px;
+                  background-color: lightblue;
+                }
+                </style>
+                <!--CSS Padding-->
+                <style>
+                    div {
+                      border: 1px solid black;
+                      background-color: lightblue;
+                      padding-top: 50px;
+                      padding-right: 30px;
+                      padding-bottom: 50px;
+                      padding-left: 80px;
+                    }
+                    </style>
+                    <!--CSS Outline-->
+                    <style>
+                        p {outline-color:red;}
+                        
+                        p.dotted {outline-style: dotted;}
+                        p.dashed {outline-style: dashed;}
+                        p.solid {outline-style: solid;}
+                        p.double {outline-style: double;}
+                        p.groove {outline-style: groove;}
+                        p.ridge {outline-style: ridge;}
+                        p.inset {outline-style: inset;}
+                        p.outset {outline-style: outset;}
+                        </style>
+                        <!--CSS Text-->
+                        <style>
+                            body {
+                              background-color: lightgrey;
+                              color: blue;
+                            }
+                            
+                            h1 {
+                              background-color: black;
+                              color: white;
+                            }
+                            
+                            div {
+                              background-color: blue;
+                              color: white;
+                            }
+                            </style>
+                            <!--CSS Fonts-->
+                            <style>
+                                .p1 {
+                                  font-family: "Times New Roman", Times, serif;
+                                }
+                                
+                                .p2 {
+                                  font-family: Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .p3 {
+                                  font-family: "Lucida Console", "Courier New", monospace;
+                                }
+                                </style>
+                                <!--CSS Lists-->
+                                <style>
+                                    ul.a {
+                                      list-style-type: circle;
+                                    }
+                                    
+                                    ul.b {
+                                      list-style-type: square;
+                                    }
+                                    
+                                    ol.c {
+                                      list-style-type: upper-roman;
+                                    }
+                                    
+                                    ol.d {
+                                      list-style-type: lower-alpha;
+                                    }
+                                    </style>
+                                    <!--CSS Tables-->
+                                    <style>
+                                        table, td, th {
+                                          border: 1px solid;
+                                        }
+                                        
+                                        table {
+                                          width: 100%;
+                                          border-collapse: collapse;
+                                        }
+                                        </style>
+                                        <!--CSS The !important Rule-->
+                                        <style>
+                                            .button {
+                                              background-color: #8c8c8c !important; 
+                                              color: white !important;
+                                              padding: 5px !important;
+                                              border: 1px solid black !important; 
+                                            }
+                                            
+                                            #myDiv a {
+                                              color: red;
+                                              background-color: yellow;  
+                                            }
+                                            </style>
+    <title>CSS</title>
+</head>
+<body>
+<!--CSS Selectors
+-->
+<p>Every paragraph will be affected by the style Nguyen Dinh Minh-2021050446.</p>
+<p id="para1">Me too Nguyen Dinh Minh-2021050446!</p>
+<p>And me Nguyen Dinh Minh-2021050446!</p>
+<!--CSS Comments
+-->
+<p>/* This is a single-line comment */</p>
+<!--HTML Colors-->
+<h1 style="background-color:DodgerBlue;">HELLO HUMG Nguyen Dinh Minh-2021050446</h1>
+    <h2>NGUYEN DINH MINH-2021050446</h2>
+
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat Nguyen Dinh Minh-2021050446.
+</p>
+<h1 style="color:Tomato;">Hello World Nguyen Dinh Minh-2021050446</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...Nguyen Dinh Minh-2021050446</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...Nguyen Dinh Minh-2021050446</p>
+<h1 style="border:2px solid Tomato;">Hello World Nguyen Dinh Minh-2021050446</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World Nguyen Dinh Minh-2021050446</h1>
+<h1 style="border:2px solid Violet;">Hello World Nguyen Dinh Minh-2021050446</h1>
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+<!--HTML Background-->
+<h1>CSS background-color example Nguyen Dinh Minh-2021050446!</h1>
+    <h2>NGUYEN DINH MINH-2021050466</h2>
+<div>
+This is a text inside a div element Nguyen Dinh Minh-2021050446.
+<p>This paragraph has its own background color Nguyen Dinh Minh-2021050446.</p>
+We are still in the div element Nguyen Dinh Minh-2021050446.
+</div>
+<!--CSS Borders-->
+<p>This property specifies what kind of border to display Nguyen Dinh Minh-2021050446:</p>
+<p class="dotted">A dotted border Nguyen Dinh Minh-2021050446.</p>
+<p class="dashed">A dashed border Nguyen Dinh Minh-2021050446.</p>
+<p class="solid">A solid border Nguyen Dinh Minh-2021050446.</p>
+<p class="double">A double border Nguyen Dinh Minh-2021050446.</p>
+<p class="groove">A groove border Nguyen Dinh Minh-2021050446.</p>
+<p class="ridge">A ridge border Nguyen Dinh Minh-2021050446.</p>
+<p class="inset">An inset border Nguyen Dinh Minh-2021050446.</p>
+<p class="outset">An outset border Nguyen Dinh Minh-2021050446.</p>
+<p class="none">No border Nguyen Dinh Minh-2021050446.</p>
+<p class="hidden">A hidden border Nguyen Dinh Minh-2021050446.</p>
+<p class="mix">A mixed border Nguyen Dinh Minh-2021050446.</p>
+<!--CSS Margin-->
+<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+<!--CSS Padding-->
+<h1>Using individual padding properties Nguyen Dinh Minh-2021050446</h1>
+    <h2>NGUYEN DINH MINH-2021050446</h2>
+
+<div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+<!--CSS Outline-->
+<h1>The outline-style Property Nguyen Dinh Minh-2021050446</h1>
+<h2>Nguyen Dinh Minh-2021050446</h2>
+
+<p class="dotted">A dotted outline Nguyen Dinh Minh-2021050446</p>
+<p class="dashed">A dashed outline Nguyen Dinh Minh-2021050446</p>
+<p class="solid">A solid outline Nguyen Dinh Minh-2021050446</p>
+<p class="double">A double outline Nguyen Dinh Minh-2021050446</p>
+<p class="groove">A groove outline. The effect depends on the outline-color value Nguyen Dinh Minh-2021050446.</p>
+<p class="ridge">A ridge outline. The effect depends on the outline-color value Nguyen Dinh Minh-2021050446.</p>
+<p class="inset">An inset outline. The effect depends on the outline-color value Nguyen Dinh Minh-2021050446.</p>
+<p class="outset">An outset outline. The effect depends on the outline-color value Nguyen Dinh Minh-2021050446.</p>
+<!--CSS Text-->
+<h1>This is a Heading Nguyen Dinh Minh-2021050446</h1>
+    <h2>Nguyen Dinh Minh</h2>
+    <h2>2021050446</h2>
+<p>This page has a grey background color and a blue text Nguyen Dinh Minh-2021050446.</p>
+<div>This is a div Nguyen Dinh Minh-2021050446.</div>
+<!--CSS fonts-->
+<h1>CSS font-family Nguyen Dinh Minh-2021050446</h1>
+    <h2>Nguyen DINH MINH-2021050446</h2>
+<p class="p1">This is a paragraph, shown in the Times New Roman font Nguyen Dinh Minh-2021050446.</p>
+<p class="p2">This is a paragraph, shown in the Arial font Nguyen Dinh Minh-2021050446.</p>
+<p class="p3">This is a paragraph, shown in the Lucida Console font Nguyen Dinh Minh-2021050446.</p>
+<!--CSS Icons-->
+<p>Some Font Awesome icons Nguyen Dinh Minh-2021050446:</p>
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+<!--CSS Links-->
+<h1>Styling a link depending on state Nguyen Dinh Minh-2021050446 </h1>
+<h2>Nguyen Dinh Minh-2021050446</h2>
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective Nguyen Dinh Minh-2021050446.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective Nguyen Dinh Minh-2021050446.</p>
+<!--CSS Lists-->
+<h1>The list-style-type Property Nguyen Dinh Minh-2021050446</h1>
+<h2>Nguyen Dinh Minh-2021050446</h2>
+<p>Example of unordered lists Nguyen Dinh Minh-2021050446:</p>
+<ul class="a">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca Cola</li>
+</ul>
+<ul class="b">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca Cola</li>
+</ul>
+<p>Example of ordered lists:</p>
+<ol class="c">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca Cola</li>
+</ol>
+<ol class="d">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca Cola</li>
+</ol>
+<!--CSS Tables-->
+<table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+    </tr>
+    <tr>
+      <td>Peter Nguyen Dinh Minh-2021050446</td>
+      <td>Griffin Nguyen Dinh Minh-2021050446</td>
+    </tr>
+    <tr>
+      <td>Lois Nguyen Dinh Minh-2021050446</td>
+      <td>Griffin Nguyen Dinh Minh-2021050446</td>
+    </tr>
+  </table>
+  <!--CSS Layout - width and max-width-->
+  <h1>CSS Max-width Nguyen Dinh Minh-2021050446</h1>
+  <h2>Nguyen Dinh Minh-2021050446</h2>
+
+<div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>
+
+<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
+the two divs!</p>
+<!--CSS Forms-->
+<h3>Using CSS to style an HTML Form Nguyen Dinh Minh-2021050446</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!--CSS The !important Rule-->
+<h1>Nguyen Dinh Minh</h1>
+<h2>2021050446</h2>
+<p>Standard button: <a class="button" href="default.asp">CSS Tutorial</a></p>
+
+<div id="myDiv">
+<p>A link text inside myDiv: <a href="/html/">HTML Tutorial</a></p>
+<p>A link button inside myDiv: <a href="/html/" class="button">HTML Tutorial</a></p>
+</div>
+<!--CSS Pseudo-elements-->
+<p>You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text  Nguyen Dinh Minh-2021050446!</p>
+
+</body>
+</html>
