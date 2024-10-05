@@ -15,6 +15,6 @@ namespace MVCDemo.Data
         }
 
         public DbSet<Student> Student { get; set; } = default!;
-        public DbSet<Employee> Employees { get; set; } = default!;
+        public DbSet<Customer> Customers { get; set; } = default!;
     }
 }

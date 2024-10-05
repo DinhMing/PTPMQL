@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVCDemo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240927162413_Create_Table_Employee")]
-    partial class Create_Table_Employee
+    [Migration("20240928080115_Create_Table_Customer")]
+    partial class Create_Table_Customer
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -19,18 +19,26 @@ namespace MVCDemo.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
 
-            modelBuilder.Entity("MVCDemo.Models.Entities.Employee", b =>
+            modelBuilder.Entity("MVCDemo.Models.Entities.Customer", b =>
                 {
-                    b.Property<string>("EmployeeID")
+                    b.Property<string>("CustomerID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("EmployeeID");
+                    b.HasKey("CustomerID");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("MVCDemo.Models.Entities.Student", b =>
